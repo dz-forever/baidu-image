@@ -8,7 +8,6 @@ import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-@EnableCaching
 public class WebmagicApplication {
     public static void main(String[] args) {
         SpringApplication.run(WebmagicApplication.class, args);
